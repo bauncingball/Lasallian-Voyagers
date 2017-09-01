@@ -1,0 +1,231 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.block {
+	width: 100%;
+	height: 577px;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	text-align: center;
+	color: white;
+}
+
+.navblock {
+	background-image: url("headbg.jpg");
+	background-repeat: no-repeat;
+
+	
+}
+
+.logo {
+	position: relative;
+	top: 210.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.navcontainer {
+	position: absolute;
+	top: 510px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	color: white;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+
+	margin: auto;
+}
+
+.nav {
+	color: white;
+	font-size: 25px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.introcontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.text1 {
+	font-family: 'oswald', sans-serif;
+	font-size: 75px;
+	color: black;
+}
+
+
+.content {
+	font-family: 'Playfair display';
+	font-size: 30px;
+	color: gray;
+}
+
+.aboutcontainer {
+	position: relative;
+	top: 50.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 500px;
+	width: 80%;
+}
+
+.picofus {
+	background-image: url("pictureofus.jpg");
+	background-repeat: no-repeat;
+
+	
+
+}
+
+.textonpicofus {
+	position: relative;
+	top: 280.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	font-family: 'Playfair display';
+	font-size: 50px;
+	color: white;
+	font-style: italic;
+}
+
+.button {
+	color: black;
+}
+
+.button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.foodcontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.foodbg {
+	background-image: url("foodbg.jpg");
+	background-repeat: no-repeat;
+
+	
+
+}
+
+.storycontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.storybg {
+	background-image: url("twins.jpg");
+	background-repeat: no-repeat;
+}
+
+.buttoncontent {
+	color: gray;
+}
+
+.button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+
+}
+
+.footer {
+	width: 100%;
+	height: 200px;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	text-align: center;
+	color: white;
+
+	background-image: url("headbg.jpg");
+	background-repeat: no-repeat;
+}
+
+.homebutton {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 60px;
+	bottom: 0;
+	left: 46%;
+	right: 0;
+}
+
+.homebutton img {
+	width: 100%;
+	height: auto;
+
+	opacity: .6;
+}
+
+.homebutton img:hover {
+	cursor: pointer;
+	opacity: 1;
+}
