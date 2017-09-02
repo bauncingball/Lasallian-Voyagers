@@ -113,7 +113,7 @@ a:hover {
 }
 
 .picofus {
-	background-image: url("pictureofus.JPG");
+	background-image: url("pictureofus.jpg");
 	background-repeat: no-repeat;
 
 	
@@ -228,4 +228,57 @@ a:hover {
 .homebutton img:hover {
 	cursor: pointer;
 	opacity: 1;
+}
+
+.waw {
+	height: 300px;
+	width: 100%;
+	position: relative;
+
+	border-bottom: 1px solid gray;
+
+}
+#icon{
+	float: left;
+
+	height: 200px;
+	width: 200px;
+
+	background-color: red;
+
+	margin: 10px;
+
+	display: flex;
+
+}
+
+#desc{
+	float: left;
+
+	height: 200px;
+	width: 400px;
+
+	margin: 10px;
+ 
+}
+
+.wrapperinblock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	
+}
+
+.abtcontent {
+	font-size: 20px;	
+}
+
+.desc {
+	display: flex;
+}
+
+.abttitle {
+	font-size: 30px;
 }
